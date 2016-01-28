@@ -3,6 +3,7 @@
 this project copy from a unity finite state machine(FSM),and i use it in html5 game engine,such like cocoscreator;
 
 How to use this:
+
   1.require this project as sm, create a new hierarchicalStateMachine to manager the states:
   ```javascript
   var sm = require('stateMachine');
