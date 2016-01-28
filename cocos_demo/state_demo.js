@@ -1,5 +1,4 @@
-var sm = require('stateMachine');
-
+var sm = require('fms');
 
 function idleState(){
     var that = this;
