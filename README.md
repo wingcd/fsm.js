@@ -5,6 +5,7 @@ this project copy from a unity finite state machine(FSM),and i use it in html5 g
 How to use this:
   1.require this project as sm, create a new hierarchicalStateMachine to manager the states:
   ```javascript
+  var sm = require('stateMachine');
   var hsm = new sm.hierarchicalStateMachine(this,true);
   ```
   2. write your own's state class extend from sm.state,override the state function to do what you want to do...:
