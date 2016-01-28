@@ -1,4 +1,4 @@
-#FMS_JS
+#fms.js
 
 this project copy from a unity finite state machine(FSM),and i use it in html5 game engine,such like cocoscreator;
 
