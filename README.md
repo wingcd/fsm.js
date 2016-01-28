@@ -30,14 +30,17 @@ How to use this:
   ```
   3. regist the states into state manager,and set the default state: 
   ```javascript
+  
   this.hsm.init([s1,s2],'state1');
   ```
   4. finally,invoke the update function of state manchine mananger,then enjoy this:
   ```javascript
+  
   this.hsm.onUpdate(dt);
   ```
   5. to total code like this:
   ```javascript
+  
   var sm = require('stateMachine');
 
   function idleState(){
