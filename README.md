@@ -27,7 +27,7 @@ How to use this:
   var s1 = new state1();
   var s2 = new state2();
   ```
-  3. regist the states into state manager,and set the default state:
+  3. regist the states into state manager,and set the default state: 
   ```javascript
   this.hsm.init([s1,s2],'state1');
   ```
