@@ -1,4 +1,4 @@
-var sm = require('fms');
+var sm = require('fsm');
 
 function idleState(){
     var that = this;
